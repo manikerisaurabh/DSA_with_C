@@ -1,3 +1,19 @@
+/*
+==============================  min max from array =================================
+
+Problem statement : Write a C program to find the minimum and maximum 
+					element from the array
+
+======================================================================================
+
+Sample Input :  arr[] = [10,20,30,40]
+
+Sample Output : minimum element : 10
+				maximum element : 40
+
+Explanation : 
+=====================================================================================
+*/
 #include<stdio.h>
 int main()
 {
@@ -8,6 +24,7 @@ int main()
 	for(int i=0; i<n; i++) {
 		scanf("%d",&a[i]);
 	}
+	
 	int min=a[0];
 	int max=a[0];
 	for(int i=1; i<n; i++) {
