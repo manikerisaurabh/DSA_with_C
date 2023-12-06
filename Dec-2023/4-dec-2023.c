@@ -15,16 +15,13 @@ Explanation :
 */
 
 
-
 #include<stdio.h>
 void completeSum(int a[], int n) {
   int b[n];
+  int sum=0;
   for(int i=0; i<n; i++) {
-    int sum=0;
-    for(int j=0; j<=i; j++) {
-      sum+=a[j];
-    }
-    b[i]=sum;
+    sum+=a[i];
+    b[i] = sum;
   }
   printf("Ans is : ");
   printArr(b,n);
