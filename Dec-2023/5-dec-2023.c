@@ -16,6 +16,7 @@ Explanation : [6, -3, -10] product is : 180
 
 
 #include<stdio.h>
+
 #include<math.h>
 int maxProduct(int a[], int n) {
   int product=0;
